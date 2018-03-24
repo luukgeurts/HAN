@@ -2,12 +2,14 @@
 <html>
 <head>
 	<title>Portfolio han</title>
+	<link rel="icon" type="image/png" href="assets/img/BioCentre_logo.png">
+	
 	<!-- css files -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
-	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+<!--	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png"> -->
 	<meta name="author" content="Kris Andrada Pereira en Luuk Geurts">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -37,7 +39,15 @@
 			<div class="nav-right nav-menu">
 				<a class="nav-item" href="#about">About</a>
 				<a class="nav-item" href="#projects">Wie zijn wij?</a>
-				<a class="nav-item" href="#social">Bestanden</a>
+				<div class="nav-item dropdown" > 
+					<button class=" dropbtn"> Bestanden </button>
+						<div class="dropdown-content">
+						<a href="PvA"> Plan van Aanpak</a>
+						<a href="">Aanbeveling</a> 
+						<a href="">Pilot</a>
+						</div>
+				</div>
+				<a class="nav-item" href="#social">Contact</a>
 			</div>
 
 			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
@@ -53,11 +63,13 @@
 		<section id="about" class="section section-1">
 			<div class="container has-text-centered">
 				<!-- Source: https://flic.kr/p/pAZBNK -->
-				<img class="avatar" src="assets/img/profile.png">
+ 				<img class="avatar" src="assets/img/C-Elegans.png">  <!-- C-elegans -->
 			</div>
 			<div class="container"></br>
 				<p class="intro">
-					Lorem Khaled Ipsum is a major key to success. To succeed you must believe. When you believe, you will succeed. Mogul talk. Find peace, life is like a water fall, you’ve gotta flow. Lion! Fan luv. Eliptical talk.
+					Wij zijn twee studenten uit twee compleet verschillende werelden. Luuk zit in de technische wereld, met een achtergrond in <i> Mechatronica </i>. 
+					Kris voelt zich meer thuis in de economische wereld, met name de marketing kant van zijn studie <i> Commercieël Economie </i>.
+					Samen gaan wij aan de hand van onze twee perspectieven een project voor Han BioCentre aanpakken. Onder het kopje 'Bestanden' kan er meer gelezen worden.
 				</p>
 			</div>
 		</section>
@@ -84,7 +96,8 @@
 								<br>
 								<div>			
 									<p>
-										Ik ben Luuk Geurts, 3e jaars mechatronica student aan de Fontys Hogeschool Engineering te Eindhoven. Momenteel volg ik de minor Smart Industry aan de HAN te Arnhem. Ik woon in Ewijk, een dorpje wat vlak bij Nijmegen ligt.
+										Ik ben Luuk Geurts, 3<sup>e</sup> jaars mechatronica student aan de Fontys Hogeschool Engineering te Eindhoven. 
+										Momenteel volg ik de minor Smart Industry aan de HAN te Arnhem. Ik woon in Ewijk, een dorpje wat vlak bij Nijmegen ligt.
 									</p>
 								</div>
 								<br>
@@ -108,7 +121,8 @@
 								<br> <!-- Deze regel heb ik toegevoegd -->
 								<div>			
 									<p>
-										Mijn naam is Kris Andrade Pereira, 4e jaars Commercieel Economie student met een passie voor marketing en alles daar omtrent. Momenteel doe ik de minor Smart Industries om te leren hoe ik technologie met marketing kan combineren. 
+										Mijn naam is Kris Andrade Pereira, 4<sup>e</sup> jaars Commercieel Economie student met een passie voor marketing en alles daar omtrent. 
+										Momenteel doe ik de minor Smart Industries om te leren hoe ik technologie met marketing kan combineren. 
 									</p>
 								</div>
 								<br> <!-- Deze regel heb ik toegevoegd -->
@@ -129,19 +143,21 @@
 		<section id="social" class="section section-3">
 			<div class="container">
 				<div class="has-text-centered">					
-					<h3 class="title is-3">Bestanden</h3>
+					<h3 class="title is-3">Contact</h3>
 				</div>
 				<div class="social-container columns">
 					<div class="column is-4 has-text-centered">
-						<a target="_blank" href="https://www.linkedin.com/in/kristoffer-andrade-pereira/"><img class="" src="assets/img/KrisLinkedIn.jpg">
+						<!-- <a target="_blank" href="https://www.linkedin.com/in/kristoffer-andrade-pereira/"><img class="" src="assets/img/KrisLinkedIn.jpg"> -->
 						<!-- Zet hiet je LinkedIn profiel bij -->
 						</a><a target="_blank" href="https://ca.linkedin.com/in/hassan-ali-6132468a"><img class="" src="assets/img/LuukLinkedIn.jpg"></a>
-					</div>
-					<div class="column is-4 has-text-centered">
-					<!-- Zet hiet je Github profiel bij -->
 						<a target="_blank" href="https://www.instagram.com/helfiwalcott/"><img class=""  src="assets/img/LuukGithub.jpg"></a>
 					</div>
 					<div class="column is-4 has-text-centered">
+					<!-- Zet hiet je Github profiel bij -->
+						<!-- <a target="_blank" href="https://www.instagram.com/helfiwalcott/"><img class=""  src="assets/img/LuukGithub.jpg"></a> -->
+					</div>
+					<div class="column is-4 has-text-centered">
+						<a target="_blank" href="https://www.linkedin.com/in/kristoffer-andrade-pereira/"><img class="" src="assets/img/KrisLinkedIn.jpg">
 						<a target="_blank" href="https://github.com/letsfith"><img class="" src="assets/img/KrisGithub.jpg"></a>
 					</div>
 				</div>
@@ -149,10 +165,11 @@
 		</section>	
 		
 		<!-- Footer -->
-		<section class="section-4 has-text-centered container">
-			<!-- <a href="http://www.hassanali.me/about">Hassan Ali</a> -->
+	<!-- <section class="section-4 has-text-centered container">
+			<a href="http://www.hassanali.me/about">Hassan Ali</a>
 		</section>
-		
+		//-->
+	
 		<!-- Scripts  -->
 		<script src="controller.js"></script>		
 	</body>	
