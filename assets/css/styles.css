@@ -5,7 +5,8 @@ html, body{
 }
 
 a {
-  color: #00d1b2;
+  color: #fff;
+  
 }
 
 a:hover {
@@ -179,6 +180,7 @@ a.nav-item:hover {
 
 .verslag{
 	background-color: #052D3D;
+	color: #cacecd;
 	text-align: center;
 	padding-left: 10%;
 	padding-right: 10%;
