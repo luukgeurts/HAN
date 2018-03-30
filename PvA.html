@@ -63,6 +63,68 @@
   font-weight: bold;
 }
 </style>
+<style type="text/css">
+.knitr .inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.rimage .left {
+}
+  text-align: left;
+.rimage .right {
+  text-align: right;
+}
+.rimage .center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.str {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.std {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
 	<title>Plan van aanpak</title>
 	<link rel="icon" type="image/png" href="assets/img/BioCentre_logo.png">
 	
@@ -99,9 +161,8 @@
 				</a>
 				-->
 			</div>
-
 			<div class="nav-right nav-menu">
-				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="about">About</a>
 				<a class="nav-item" href="#projects">Wie zijn wij?</a>
 				<div class="nav-item dropdown" > 
 					<button class=" dropbtn"> Bestanden </button>
@@ -114,7 +175,6 @@
 				</div>
 				<a class="nav-item" href="#social">Contact</a>
 			</div>
-
 			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
 			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
 			<span class="nav-toggle">
@@ -155,19 +215,22 @@
 		</div>
 		</div>
 			<div class="verslag">
-<br><br><br><br>
-				<h1 id="Inleiding"> Inleiding </h1>
+<br><br>
+				<div id="centerMe">
+				<h1 id="Inleiding" class="title is-3"> Inleiding </h1></div>
 				Dit onderzoek is een onderdeel van een groter project, waar drie verschillende faculteiten binnen de Hogeschool van Arnhem en Nijmegen aan werken: Het HAN BioCentre, HAN Engineering en HAN Smart Industries. 
 				Dit onderzoek wordt verricht door het Smart Industries team.
-				Er staan twee concrete vragen centraal bij dit project: <br> 
+				Er staan twee concrete vragen centraal bij dit project: 
+				<br><br>
 				- Hoe kan het meten van C-Elegans wormen geautomatiseerd worden? <br>
-				- In hoeverre is het mogelijk om inkomsten voor de HAN te generen voor het te ontwerpen product uit vraag 1? <br>
+				- In hoeverre is het mogelijk om inkomsten voor de HAN te generen voor het te ontwerpen product uit vraag 1? 
+				<br><br>
 				Aan de hand van dit onderzoek wordt naar een antwoord op de tweede vraag gezocht.
 				In de komende hoofdstukken wordt onder andere de aanleiding voor het onderzoek, de doelstelling, de probleemanalyse, de randvoorwaarden en mogelijke verdienmodellen besproken. 
 				In dit onderzoek wordt het te ontwerpen product aangeduid met 'het product'.
-<br><br><br><br>
-				<h1 id="Aanleiding"> De aanleiding en context <h1>
-				<h2> Aanleiding </h2>
+<br><br><br>
+				<h1 id="Aanleiding" class="title is-2"> De aanleiding en context </h1>
+				<h2 class="title is-3"> Aanleiding </h2>
 				<p>Het HAN BioCentre heeft een wormen lab. 
 				In dit lab wordt onderzoek gedaan op de wormen "C- Elegans". 
 				Deze wormen zijn volledig in kaart gebracht en hebben grote overeenkomsten in het DNA en zenuwstelsel als mensen. 
@@ -177,139 +240,148 @@
 				Het HAN BioCentre is een samenwerking aangegaan met HAN Engineering om een dergelijk apparaat te ontwikkelen. Graag willen ze weten of dit idee tot een smart business case kan leiden. 
 				Het is aan ons om dit te onderzoeken en er een plan voor op te stellen. </p>
 				<br> <br>
-				<h2> Context </h2>
+				<h2 class="title is-3"> Context </h2>
 				<p>Zoals in de aanleiding naar voren is gekomen worden de wormen momenteel met de hand geteld. 
 				Dit is zowel heel arbeidsintensief, als tijdrovend en onnauwkeurig. Vandaar dat er nu naar automatiseringsmogelijkheden gezocht wordt. 
 				Er zijn momenteel al producten op de markt die dit proces kunnen automatiseren. Deze zijn echter te duur voor de HAN BioCentre om meerdere van aan te schaffen. </p>
-<br><br><br><br>				
-				<h1 id="Doelstelling"> Doelstelling en beoogd projectresultaat </h1>
-				<h2> Beoogde projectresultaat </h2>
+<br><br><br>				
+				<h1 id="Doelstelling" class="title is-2"> Doelstelling en beoogd projectresultaat </h1>
+				<h2 class="title is-3"> Beoogde projectresultaat </h2>
 				Het beoogde projectresultaat is het ontwerpen van een product dat het tellen van de C-Elegans faciliteert. Hier gaat de HAN BioCentre in eerste instantie mee aan de slag. Dit product zal in de nabije toekomst aan derde partijen verkocht moeten worden. 
 				<br><br>
-				<h2> Onderzoeksdoelstelling </h2>
+				<h2 class="title is-3"> Onderzoeksdoelstelling </h2>
 				Het doel van dit onderzoek is om een concreet business model op te stellen, zodat HAN door middel van het product inkomsten kan gaan genereren. Dit model zal betrekking hebben op de komende twee jaren en dient als richtlijn zodat de HAN het product op de markt kan brengen. 
-<br><br><br><br>
-				<h1 id="Probleemanalyse"> Probleemanalyse en probleemstelling </h1>
-				<h2> Hoofdvraag </h2>
-				Hoe ziet het business model voor de HAN BioCentre er uit om voor de komende twee jaar inkomsten te kunnen genereren door middel van het product? <br><br>
-
-				<h2> Subvragen </h2>
-				<ol>
-    			<li>	Wat zijn de regels omtrent het verkopen van een product vanuit de HAN? </li> 
-    			<li>	In hoeverre is de HAN BioCentre hier klaar voor?</li>
-    			<li>	Wie is onze markt? </li>
-    			<li>	In hoeverre is er vraag naar dit product in het werkveld?</li>
-    			<li>	Marktonderzoek</li>
-    			<li>	Wie zijn de mogelijke concurrenten?</li>
-    			<li>	Pilot</li>
-    			<li>	Kostenanalyse </li>
-				</ol>
-<br><br><br><br>
-				<h1 id="Projectinrichting">Projectinrichting, randvoorwaarden en beperkingen </h1>
-				<h2> Beperkingen </h2>
-				Om dit onderzoek af te bakenen, zullen de volgende beperkingen worden opgesteld.<br>
-				<ul style="list-style-type:disc">
-				<li>Er wordt er van uit gegaan dat het apparaat enkel voor de wormen C-Elegans gebruikt gaat worden. Binnen dit onderzoek wordt dus ook enkel naar deze markt gekeken. </li>
-				
-				<li>Er wordt tijdens dit onderzoek enkel een van de onderstaande opties uitgewerkt. Dit, door de te besteden tijd dat er is.</li>
-				<li>Dit onderzoek heeft betrekking op de volgende markten: Duitsland, Benelux, Engeland.</li>
-				<li>Wanneer de HAN wettelijk gezien geen winst mag maken of inkomsten mag genereren wordt de businesscase alsnog verder uitgewerkt. 					Verder wordt er dan als advies gegeven om te onderzoeken hoe zij een bedrijf op moeten richten wat het verkopen van dit apparaat gaat doen. </li>
-				<li>
-				Het maken van een database is niet de kern van de opdracht, echter het dient enkel als proof-of-concept.
-				</li>
-					</ul>
-					<br><br><br><br>
-				<h2> Randvoorwaarden </h2>
+<br><br><br>	
+				<h1 id="Probleemanalyse" class="title is-2"> Probleemanalyse en probleemstelling </h1>
+				<h2 class="title is-3"> Hoofdvraag </h2>
+					Hoe ziet het business model voor de HAN BioCentre er uit om voor de komende twee jaar inkomsten te kunnen genereren door middel van het product? 
+<br><br>
+				<h2 class="title is-3"> Subvragen </h2>
+				<div class="Pva_subvragen">
+					<ol>
+						<li>Wat zijn de regels omtrent het verkopen van een product vanuit de HAN?</li> 
+						<li>Wat is de waardepropositie van de HAN BioCentre met betrekking tot het product?</li>
+						<li>In hoeverre is de HAN BioCentre hier klaar voor?</li>
+						<li>Wie is onze markt? </li>
+						<li>Marktonderzoek</li>
+						<li>Wie zijn de concurrenten?</li>
+						<li>Pilot</li>
+						<li>Kostenanalyse </li>
+					</ol>
+				</div>
+<br><br>
+				<h1 id="Projectinrichting" class="title is-2">Projectinrichting, randvoorwaarden en beperkingen </h1>
+				<h2 class="title is-3"> Beperkingen </h2>
+				Om dit onderzoek af te bakenen, zullen de volgende beperkingen worden opgesteld.<br><br>
+				<ul>
+					<li>Er wordt er van uit gegaan dat het apparaat enkel voor de wormen C-Elegans gebruikt gaat worden. Binnen dit onderzoek wordt dus ook enkel naar deze markt gekeken. </li>
+					<li>Er wordt tijdens dit onderzoek enkel een van de onderstaande opties uitgewerkt. Dit, door de te besteden tijd dat er is.</li>
+					<li>Dit onderzoek heeft betrekking op de volgende markten: Duitsland, Benelux, Engeland.</li>
+					<li>Wanneer de HAN wettelijk gezien geen winst mag maken of inkomsten mag genereren wordt de businesscase alsnog verder uitgewerkt.
+					Verder wordt er dan als advies gegeven om te onderzoeken hoe zij een bedrijf op moeten richten wat het verkopen van dit apparaat gaat doen. </li>
+					<li>Het maken van een database is niet de kern van de opdracht, echter het dient enkel als proof-of-concept.</li>
+				</ul>
+<br><br>
+				<h2 class="title is-3"> Randvoorwaarden </h2>
 				Het onderzoek loopt tot en met 15 juni. Dit is de deadline om het onderzoek af te hebben. <br><br>
 				Er is geen budget vrijgesteld. Er zijn daarnaast ook geen afspraken gemaakt met betrekking tot het vergoeden van eventuele onkosten. 
-<br><br><br><br>
-				<h1 id="MogelijkeVerdienModellen"> Mogelijke Verdienmodellen </h1>
+<br><br><br>
+				<h1 id="MogelijkeVerdienModellen" class="title is-2"> Mogelijke Verdienmodellen </h1>
 				<b>Verkopen van data</b><br>
-				Dit houdt in dat, de HAN BioCentre met het apparaat in handen blijft en dat zij zelf de experimenten uitvoert. Ze blijven daarna ook eigenaar van de verkregen data en kunnen deze verder verkopen aan andere opdrachtgevers. Er moet hiervoor een verdien model worden opgesteld waarbij zowel de HAN als de toekomstige opdrachtgevers profijt bij hebben.  
+				Dit houdt in dat, de HAN BioCentre met het apparaat in handen blijft en dat zij zelf de experimenten uitvoert. 
+				Ze blijven daarna ook eigenaar van de verkregen data en kunnen deze verder verkopen aan andere opdrachtgevers. 
+				Er moet hiervoor een verdien model worden opgesteld waarbij zowel de HAN als de toekomstige opdrachtgevers profijt bij hebben.  
 <br><br>
 				<b>Verkoop van het analyseren van data</b><br>
-				Het apparaat tegen kostprijs verkopen en dan een vergoeding vragen voor het analyseren van de data. Zo kunnen mensen het apparaat gebruiken zonder dat ze verstand van C. Elegans hoeven te hebben. Mogelijk een database online waar gebruikers de gemaakte afbeeldingen in kunnen zetten en dat er dan software is die de aantallen tellen en dit bijvoorbeeld in een heatmap zet.
+				Het apparaat tegen kostprijs verkopen en dan een vergoeding vragen voor het analyseren van de data. 
+				Zo kunnen mensen het apparaat gebruiken zonder dat ze verstand van C. Elegans hoeven te hebben. 
+				Mogelijk een database online waar gebruikers de gemaakte afbeeldingen in kunnen zetten en dat er dan software is die de aantallen tellen en dit bijvoorbeeld in een heatmap zet.
 <br><br>
 				<b>Verkopen van tijd met het apparaat</b><br>
-				Dit houdt in dat het apparaat in handen blijft van de BioCentre van HAN. Bedrijven/Organisaties die het apparaat nodig hebben, kunnen dan een verzoek indienen om zelf gebruik te maken van het apparaat of dat de BioCentre deze experimenten zelf doet en de resultaten dan doorsturen.
+				Dit houdt in dat het apparaat in handen blijft van de BioCentre van HAN. 
+				Bedrijven/Organisaties die het apparaat nodig hebben, kunnen dan een verzoek indienen om zelf gebruik te maken van het apparaat of dat de BioCentre deze experimenten zelf doet en de resultaten dan doorsturen.
 <br><br>
 				<b>Verkopen van het apparaat zelf</b><br>
-				Dit houdt in dat er uitgezocht wordt in hoeverre het verstandig is om het apparaat als product aan te bieden. De kopers krijgen het apparaat en kunnen deze in hun eigen experimenten gebruiken.
+				Dit houdt in dat er uitgezocht wordt in hoeverre het verstandig is om het apparaat als product aan te bieden. 
+				De kopers krijgen het apparaat en kunnen deze in hun eigen experimenten gebruiken.
 <br><br>
 				<b>Verhuren van het apparaat</b><br>
 				Dit houdt in dat het apparaat voor maar een beperkte tijd naar de opdrachtgever gaat. Na het verlopen van het experiment/tijd gaat het apparaat terug naar HAN BioCentre.
 <br><br>
 				<b>Verkoop van software</b><br>
-				Dit houdt het scheiden van hard- en software in. Het apparaat wordt aan bedrijven/organisaties tegen kostprijs verkocht met de software die daarnaast los te koop is. Er moet gekeken worden naar het soort Open Source licenties die het Engineering team gaat gebruiken.  
+				Dit houdt het scheiden van hard- en software in. Het apparaat wordt aan bedrijven/organisaties tegen kostprijs verkocht met de software die daarnaast los te koop is. 
+				Er moet gekeken worden naar het soort Open Source licenties die het Engineering team gaat gebruiken.  
 <br><br>
-De voorkeur gaat uit naar de verkoop van de analyse van de data, omdat wij hier een smart component aan kunnen koppelen. Hierdoor kan de HAN BioCentre ook in de toekomst efficiÃ«nt en geautomatiseerd te werk gaan met C-elegans. Denk hierbij bijvoorbeeld aan de gegenereerde data die nu nog niet van belang lijkt, maar mogelijk later wel een waarde kan hebben. 
-<br><br>
-			<h1 id="Communicatie"> Communicatie </h1>
-      <br>
-      Communicatie tussen het team en de opdrachtgever verloopt voornamelijk via mail, persoonlijke gesprekken en de website. Bij eventuele simpele vragen wordt de opdrachtgever of het engineering team direct gemaild. Voor meer diepgaande vragen zullen extra contactmomenten gepland worden met het HAN BioCentre of het Engineering team. De website zal met name gebruikt worden voor wekelijkse updates en het presenteren van resultaten zodat iedereen continu op de hoogte is van de voortgang. 
-      <br>
-      <br>
-      <h1 id="Planning"> Planning </h1>
+				De voorkeur gaat uit naar de verkoop van de analyse van de data, omdat wij hier een smart component aan kunnen koppelen. 
+				Hierdoor kan de HAN BioCentre ook in de toekomst efficiënt en geautomatiseerd te werk gaan met C-elegans. 
+				Denk hierbij bijvoorbeeld aan de gegenereerde data die nu nog niet van belang lijkt, maar mogelijk later wel een waarde kan hebben. 
+<br><br><br>
+			<h1 id="Communicatie" class="title is-2"> Communicatie </h1>
+				Communicatie tussen het team en de opdrachtgever verloopt voornamelijk via mail, persoonlijke gesprekken en de website. 
+				Bij eventuele simpele vragen wordt de opdrachtgever of het engineering team direct gemaild. 
+				Voor meer diepgaande vragen zullen extra contactmomenten gepland worden met het HAN BioCentre of het Engineering team. 
+				De website zal met name gebruikt worden voor wekelijkse updates en het presenteren van resultaten zodat iedereen continu op de hoogte is van de voortgang. 
+<br><br><br>
+      <h1 id="Planning" class="title is-2"> Planning </h1>
         <div class="has-text-centered">
-          <table>
+          <table align="center">
             <tr>
           		<th> <font color="white"> Subvraag </font> </th>
-          		<th> <font color="white"> Weeknummer begin </th>
-          		<th> <font color="white"> Weeknummer einde </th>
+          		<th> <font color="white"> Weeknummer begin </font> </th>
+          		<th> <font color="white"> Weeknummer einde </font> </th>
           	</tr>
           	<tr>
-          		<th> <font color="white"> Wat zijn de regels omtrent het verkopen van een product vanuit de HAN? </font> </th>
-          		<th> <font color="white"> Week 13 </font> </th>
-          		<th> <font color="white"> Week 13 </font> </th>
+          		<td> <font color="white"> Wat zijn de regels omtrent het verkopen van een product vanuit de HAN? </font> </td>
+          		<td> <font color="white"> Week 14 </font> </td>
+          		<td> <font color="white"> Week 14 </font> </td>
+          	</tr>
+			<tr>
+          		<td> <font color="white"> Wat is de waardepropositie van de HAN BioCentre met betrekking tot het product? </td>
+          		<td> <font color="white"> Week 15 </font> </td>
+          		<td> <font color="white"> Week 15 </font> </td>
           	</tr>
           	<tr>
-          		<th> <font color="white"> In hoeverre is de HAN hier klaar voor? </th>
-          		<th> <font color="white"> Week 14 </font> </th>
-          		<th> <font color="white"> Week 14 </font> </th>
+          		<td> <font color="white"> In hoeverre is de HAN BioCentre hier klaar voor? </td>
+          		<td> <font color="white"> Week 14 </font> </td>
+          		<td> <font color="white"> Week 15 </font> </td>
           	</tr>
           	<tr>
-          		<th> <font color="white"> Wie is onze markt? </font> </th>
-          		<th> <font color="white"> Week 15 </font> </th>
-          		<th> <font color="white"> Week 16 </font> </th>
+          		<td> <font color="white"> Wie is onze markt? </font> </td>
+          		<td> <font color="white"> Week 15 </font> </td>
+          		<td> <font color="white"> Week 16 </font> </td>
           	</tr>
           	<tr>
-          		<th> <font color="white"> Welke ontwikkelingen zijn er gaande in de markt? </font> </th>
-          		<th> <font color="white"> Week 17 </font> </th>
-          		<th> <font color="white"> Week 19 </font> </th>
+          		<td> <font color="white"> Marktonderzoek </font> </td>
+          		<td> <font color="white"> Week 15 </font> </td>
+          		<td> <font color="white"> Week 22 </font> </td>
           	</tr>
           	<tr>
-          		<th> <font color="white"> Marktonderzoek </font> </th>
-          		<th> <font color="white"> Week 13 </font> </th>
-          		<th> <font color="white"> Week 21 </font> </th>
+          		<td> <font color="white"> Wie zijn de concurrenten? </font> </td>
+          		<td> <font color="white"> Week 18 </font> </td>
+          		<td> <font color="white"> Week 19 </font> </td>
           	</tr>
           	<tr>
-          		<th> <font color="white"> Wie zijn de mogelijke concurrenten? </font> </th>
-          		<th> <font color="white"> Week 19 </font> </th>
-          		<th> <font color="white"> Week 20 </font> </th>
+          		<td> <font color="white"> Pilot </font> </td>
+          		<td> <font color="white"> Week 14 </font> </td>
+          		<td> <font color="white"> Week 22 </font> </td>
+          	</tr>
+			<tr>
+          		<td> <font color="white"> Financiële Analyse </font> </td>
+          		<td> <font color="white"> Week 20 </font> </td>
+          		<td> <font color="white"> Week 21 </font> </td>
           	</tr>
           	<tr>
-          		<th> <font color="white"> Pilot </font> </th>
-          		<th> <font color="white"> Week 13 </font> </th>
-          		<th> <font color="white"> Week 22 </font> </th>
+          		<td> <font color="white"> Conclusie </font> </td>
+          		<td> <font color="white"> Week 21 </font> </td>
+          		<td> <font color="white"> Week 22 </font> </td>
           	</tr>
           	<tr>
-          		<th> <font color="white"> Conclusie </font> </th>
-          		<th> <font color="white"> Week 20 </font> </th>
-          		<th> <font color="white"> Week 22 </font> </th>
-          	</tr>
-          	<tr>
-          		<th> <font color="white"> Eventuele uitloop </font> </th>
-          		<th> <font color="white"> Week 22 </font> </th>
-          		<th> <font color="white"> Week 24 </font> </th>
+          		<td> <font color="white"> Eventuele uitloop </font> </td>
+          		<td> <font color="white"> Week 22 </font> </td>
+          		<td> <font color="white"> Week 24 </font> </td>
           	</tr>
           </table>
-        
-			</div>
-			<div class="container has-text-centered">			
-		 
-		  <br>
-		  <!-- <iframe width=800 height=700 src="https://docs.google.com/document/d/e/2PACX-1vSgXbn4M7SuD3rB_q2EI5YTHKE8LnMjQvaFEpkit2uNs7jW4Kz_fsM4SWdtcueHDgjtI6-RBFsqwv0l/pub?embedded=true"></iframe> -->
-		  <br>
+<br><br><br>
 			</div>
 			<!-- Scripts   -->
 			 <script src="controller.js"></script>
