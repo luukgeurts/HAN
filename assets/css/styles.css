@@ -40,7 +40,7 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-	color: #fff;
+	color: #00d1b2;
 }
 
 .avatar{
@@ -108,9 +108,21 @@ a.nav-item:hover {
 	}
 
 }
+
+/* Css voor lists */
+ul{
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+ol{
+	list-style-position: inside;
+}
+
+
 /* Dropdown code */
 .dropbtn {
-    background-color: #063647;
+    background-color: transparent;
     color: #dfdfdf;
     padding: 0px; /* was 17 */
 	padding-top: 10px;
@@ -122,7 +134,7 @@ a.nav-item:hover {
 .dropdown {
     position: relative; /* was relative */
     display: inline-block;
-	background-color: #063647;
+	background-color: transparent;
 	float:left;					/* niet in originele code */
 				/* niet in originele code; helpt met mooiere menu op mobiel */
 	text-align: left;			/* niet in originele code */
@@ -159,12 +171,14 @@ a.nav-item:hover {
 
 .dropdown:hover .dropbtn {
     background-color: #063647;
-	color: #fff;
+	color: #00d1b2;
 }
 	/* PvA */
 .inhoudsopgave{
 	background-color: #063647;
 	text-align: center;
+	padding-left: 22%;
+	padding-right: 22%;
 }
 
 .column_pva {
@@ -182,9 +196,22 @@ a.nav-item:hover {
 	background-color: #052D3D;
 	color: #cacecd;
 	text-align: center;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 21%;
+	padding-right: 21%;
 }
+
+.Pva_subvragen{
+	text-align: left;
+	padding-left:25%;
+	/* background-color:red; */ /*Test om naar de div te kijken*/
+}
+
+.Pva_subvragen li::before {
+  content: "";
+  width: 3%;
+  display: inline-block;
+}
+
 
 
 /* Opmaak voor de tabel van de planning */
@@ -199,67 +226,74 @@ td, th {
     border: 1px solid #ffffff;
     text-align: left;
     padding: 8px;
-    
 }
 
 tr:nth-child(even) {
     background-color: #063647;
 }
 
+#centerMe{
+	text-align: center;
+}
 
 /* Headings  */
-h1 { 
-    display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
+.title	{
+	text-align: center;
 }
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-h3 { 
-    display: block;
-    font-size: 1.17em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-h4 { 
-    display: block;
-    font-size: 1em;
-    margin-top: 1.33em;
-    margin-bottom: 1.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-h5 { 
-    display: block;
-    font-size: .83em;
-    margin-top: 1.67em;
-    margin-bottom: 1.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-h6 { 
-    display: block;
-    font-size: .67em;
-    margin-top: 2.33em;
-    margin-bottom: 2.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
+
+
+/* h1 {  */
+    /* display: block; */
+    /* font-size: 2em; */
+    /* margin-top: 0.67em; */
+    /* margin-bottom: 0.67em; */
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    /* font-weight: bold; */
+/* } */
+/* h2 { */
+    /* display: block; */
+    /* font-size: 1.5em; */
+    /* margin-top: 0.83em; */
+    /* margin-bottom: 0.83em; */
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    /* font-weight: bold; */
+/* } */
+/* h3 {  */
+    /* display: block; */
+    /* font-size: 1.17em; */
+    /* margin-top: 1em; */
+    /* margin-bottom: 1em; */
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    /* font-weight: bold; */
+/* } */
+/* h4 {  */
+    /* display: block; */
+    /* font-size: 1em; */
+    /* margin-top: 1.33em; */
+    /* margin-bottom: 1.33em; */
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    /* font-weight: bold; */
+/* } */
+/* h5 {  */
+    /* display: block; */
+    /* font-size: .83em; */
+    /* margin-top: 1.67em; */
+    /* margin-bottom: 1.67em; */
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    /* font-weight: bold; */
+/* } */
+/* h6 {  */
+    /* display: block; */
+    /* font-size: .67em; */
+    /* margin-top: 2.33em; */
+    /* margin-bottom: 2.33em; */
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    /* font-weight: bold; */
+/* } */
 
