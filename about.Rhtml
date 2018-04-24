@@ -1,70 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-</style>
-	<title>Portfolio han</title>
-	<link rel="icon" type="image/png" href="assets/img/BioCentre_logo.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>About</title>
 	
-	<!-- css files -->
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	
+	<!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+	<!-- Logo webpagina -->
+	<link rel="icon" type="image/png" href="assets/img/BioCentre_logo.png">
 
 <!--	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png"> -->
 	<meta name="author" content="Kris Andrada Pereira en Luuk Geurts">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-	<body>
+
+
+<body>
 		<!-- Navbar -->
-		<nav class="nav container void-background">
-			<!-- This "nav-menu" is hidden on mobile -->
-			<!-- Add the modifier "is-active" to display it on mobile -->
-			<div class="nav-left">
-				<a href="index" class="nav-item">
-					<span class="icon">
-						<i class="fa fa-home"></i>
-					</span>
-				</a>
-				<!--
-				<a href="http://github.com/helfi92" class="nav-item">
-					<span class="icon">
-						<i class="fa fa-github"></i>
-					</span>
-				</a>
-				<a href="https://twitter.com/hassanhelfi" class="nav-item">
-					<span class="icon">
-						<i class="fa fa-twitter"></i>
-					</span>
-				</a>
-				-->
-			</div>
-
-			<div class="nav-right nav-menu">
-				<a class="nav-item" href="about">About</a>
-				<a class="nav-item" href="#projects">Wie zijn wij?</a>
-				<div class="nav-item dropdown" > 
-					<button class=" dropbtn"> Bestanden </button>
-						<div class="dropdown-content">
-						<a href="PvA"> Plan van Aanpak</a>
-						<a href="Markt_Segmentatie">Markt Segmentatie</a>
-						<a href="">Aanbeveling</a> 
-						<a href="">Pilot</a>
-						</div>
-				</div>
-				<a class="nav-item" href="#social">Contact</a>
-			</div>
-
-			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-			<span class="nav-toggle">
-				<span></span>
-				<span></span>
-				<span></span>
-			</span>
-		</nav>
+		<a id="ddmenuLink" href="menuBar.html"> Menu </a>
+		
+		
+		<!-- Content -->
 				
-		<!-- Wie zijn wij? -->
+  	<!-- Wie zijn wij? -->
 		<section id="about" class="section section-1">
 			<div class="container has-text-centered">
 				<!-- Source: https://flic.kr/p/pAZBNK -->
@@ -167,15 +137,18 @@
 					</div>
 				</div>
 			</div>
-		</section>	
+		</section>		
 		
-		<!-- Footer -->
-	<!-- <section class="section-4 has-text-centered container">
-			<a href="http://www.hassanali.me/about">Hassan Ali</a>
-		</section>
-		//-->
 	
-		<!-- Scripts  -->
+		<!-- JavaScript is required for the dropdown menu -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery -->
+    <script src="js/ddmenu.js" type="text/javascript"></script>
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="js/bootstrap.js"></script>
+    <!-- Javascripts -->
 		<script src="controller.js"></script>		
 	</body>	
 </html>
+
