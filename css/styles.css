@@ -232,7 +232,9 @@ td, th {
     border: 1px solid #ffffff;
     text-align: left;
     padding: 8px;
+	color: white !Important;
 }
+
 
 tr:nth-child(even) {
     background-color: #063647;
