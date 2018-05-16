@@ -2,68 +2,6 @@
 <html>
 <head>
 <style type="text/css">
-.knitr .inline {
-  background-color: #f7f7f7;
-  border:solid 1px #B0B0B0;
-}
-.error {
-	font-weight: bold;
-	color: #FF0000;
-}
-.warning {
-	font-weight: bold;
-}
-.message {
-	font-style: italic;
-}
-.source, .output, .warning, .error, .message {
-	padding: 0 1em;
-  border:solid 1px #F7F7F7;
-}
-.source {
-  background-color: #f5f5f5;
-}
-.rimage .left {
-  text-align: left;
-}
-.rimage .right {
-  text-align: right;
-}
-.rimage .center {
-  text-align: center;
-}
-.hl.num {
-  color: #AF0F91;
-}
-.hl.str {
-  color: #317ECC;
-}
-.hl.com {
-  color: #AD95AF;
-  font-style: italic;
-}
-.hl.opt {
-  color: #000000;
-}
-.hl.std {
-  color: #585858;
-}
-.hl.kwa {
-  color: #295F94;
-  font-weight: bold;
-}
-.hl.kwb {
-  color: #B05A65;
-}
-.hl.kwc {
-  color: #55aa55;
-}
-.hl.kwd {
-  color: #BC5A65;
-  font-weight: bold;
-}
-</style>
-<style type="text/css">
 </style>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -95,54 +33,76 @@
 		
 		
 		<!-- Content -->
-	<div id="Tabel_Aantal_Bedrijven">
-		<table>
-			<tr>
-				<th rowspan="2">Bedrijfstak</th>
-				<th colspan="10">Bedrijfsgrootte</th>
-			</tr>
-			<tr class="r-span">
-				<th>Aantal bedrijven</th><th>1 werknemer</th><th>2 werknemers</th><th>3-5 werknemers</th><th>5-10 werknemers</th><th>10-20 werknemers</th><th>20-50 werknemers</th><th>50-100 werknemers</th><th>100-250 werknemers</th><th>250+ werknemers</th>
-			</tr>
-			<tr>
-				<td>Farmaceutische Productenindustrie</td>
-				<td>160</td><td>70</td><td>10</td><td>10</td><td>15</td><td>15</td><td>5</td><td>10</td><td>15</td><td>10</td>
-			</tr>
-			<!-- <tr> -->
-			<!-- <td>Ziekenhuizen</td> -->
-			<!-- <td>325</td><td>85</td><td>10</td><td>15</td><td>15</td><td>15</td><td>25</td><td>5</td><td>10?</td><td>145</td> -->
-			<!-- </tr>	 -->
-			<tr>
-				<td>Universitair Medische Centra</td>
-				<td>10</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>5</td>
-			</tr>
-			<tr>
-				<td>Algemene Ziekenhuizen</td>
-				<td>65</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>65</td>
-			</tr>
-			<tr>
-				<td>Medische Laboratoria</td>
-				<td>190</td><td>115</td><td>10</td><td>10</td><td>10</td><td>5</td><td>10</td><td>10</td><td>5</td><td> 10</td>
-			</tr>
-			<tr>
-				<td>Totaal</td>
-				<td>425</td><td>190</td><td>20</td><td>20</td><td>25</td><td>20</td><td>15</td><td>20</td><td>25</td><td>90</td>
-			</tr>
-		</table>
-	</div>
+	<div class="verslag">
+	<h2 class="title is-3"> Onze doelgroep </h2> 
+
+			<p>Eén homogene markt waar iedereen dezelfde wensen en behoeften heeft bestaat niet. 
+			Zelfs binnen Nederland zijn er grote verschillen te zien. Om niet overal (lees: nergens) op te focussen, is de Nederlandse markt gesegmenteerd in enkele, op elkaar lijkende, groepen. 
+			Deze groepen hebben dezelfde wensen en behoeften en kunnen op eenzelfde manier benaderd worden. Met de <i> HTSS </i> moet de HAN zich op de volgende bedrijfstakken focussen:
+			<br><br>
+				<div><b>
+					<div class="column-4"> Farmaceutische Productenindustrie</div>
+					<div class="column-4">Universitair Medische Centra</div>
+					<div class="column-4">Algemene Ziekenhuizen</div>
+					<div class="column-4">Medische Laboratoria e.d.</div>
+					</b>
+				</div>
+			<br><br><br>
+			</p>
+Aan de hand van de <a href="">gekozen segmentatie criteria</a> en data verkregen van het <a href="">CBS</a>, zijn de bovengenoemde branches gekozen. 
+Met de verkregen data is vervolgens de marktgrootte berekend en de markttrend in kaart gebracht. In het tabel hieronder is de marktgrootte weergegeven voor de 4de kwartaal van 2017.
+ Het grafiek geeft het aantal bedrijven per branche sinds 2007 weer. Er moet echter rekening worden gehouden met het feit dat het CBS afrondt op vijftallen. 
+ Dit betekent dat de cijfers niet 100% kloppen met het werkelijkheid en dat de gedane berekeningen een schatting weergeven. 
+<br><br>
+			<div id="Tabel_Aantal_Bedrijven">
+				<table align="center"> <!-- Tabel is nog niet gecentreerd -->
+					<tr>
+						<th rowspan="2">Bedrijfstak</th>
+						<th colspan="10">Bedrijfsgrootte</th>
+					</tr>
+					<tr>
+						<th>Aantal bedrijven</th><th>1 werknemer</th><th>2 werknemers</th><th>3-5 werknemers</th><th>5-10 werknemers</th><th>10-20 werknemers</th><th>20-50 werknemers</th><th>50-100 werknemers</th><th>100-250 werknemers</th><th>250+ werknemers</th>
+					</tr>
+					<tr>
+						<td>Farmaceutische Productenindustrie</td>
+						<td>160</td><td>70</td><td>10</td><td>10</td><td>15</td><td>15</td><td>5</td><td>10</td><td>15</td><td>10</td>
+					</tr>
+					<!-- <tr> -->
+					<!-- <td>Ziekenhuizen</td> -->
+					<!-- <td>325</td><td>85</td><td>10</td><td>15</td><td>15</td><td>15</td><td>25</td><td>5</td><td>10?</td><td>145</td> -->
+					<!-- </tr>	 -->
+					<tr>
+						<td>Universitair Medische Centra</td>
+						<td>10</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>5</td>
+					</tr>
+					<tr>
+						<td>Algemene Ziekenhuizen</td>
+						<td>65</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>65</td>
+					</tr>
+					<tr>
+						<td>Medische Laboratoria</td>
+						<td>190</td><td>115</td><td>10</td><td>10</td><td>10</td><td>5</td><td>10</td><td>10</td><td>5</td><td> 10</td>
+					</tr>
+					<tr>
+						<td>Totaal</td>
+						<td>425</td><td>190</td><td>20</td><td>20</td><td>25</td><td>20</td><td>15</td><td>20</td><td>25</td><td>90</td>
+					</tr>
+				</table>
+			</div>
 <br><br><br>
-<div class="extra_body">
-<br>
-	<div class="amcharts">
-		<iframe width="100%" height="600" src="https://live.amcharts.com/DM4Yz/embed/" frameborder="0"></iframe> <!-- totaal bedrijven  -->
-	</div>
-</div>
-	<div>
-	<div class="column-4"><a href="Farma_Prod.html">Farmaceutische Productenindustrie</a></div>
-	<div class="column-4"><a href="UMC.html">Universitair Medische Centra</a></div>
-	<div class="column-4"><a href="Algemene_Ziekenhuizen.html">Algemene Ziekenhuizen</a></div>
-	<div class="column-4"><a href="Med_Labs.html">Medische Laboratoria e.d.</a></div>
-	</div>
+		</div>
+		<div class="extra_body">
+		<br>
+			<div class="amcharts">
+				<iframe width="100%" height="600" src="https://live.amcharts.com/DM4Yz/embed/" frameborder="0"></iframe> <!-- totaal bedrijven  -->
+			</div>
+		</div>
+				<div>
+				<div class="column-4"><a href="Farma_Prod.html">Farmaceutische Productenindustrie</a></div>
+				<div class="column-4"><a href="UMC.html">Universitair Medische Centra</a></div>
+				<div class="column-4"><a href="Algemene_Ziekenhuizen.html">Algemene Ziekenhuizen</a></div>
+				<div class="column-4"><a href="Med_Labs.html">Medische Laboratoria e.d.</a></div>
+				</div>
 
 
 		<!-- JavaScript is required for the dropdown menu -->
