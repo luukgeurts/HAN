@@ -190,7 +190,7 @@ ol{
 	padding-right: 22%;
 }
 
-.column_pva {
+.column-2 {
     float: left;
     width: 50%;
     padding: 0px;
@@ -202,7 +202,7 @@ ol{
 }
 
 /* css voor grafieken links */
-.column_VierLinks{
+.column-4{
 	float: left;
     width: 25%;
     padding: 10px;
