@@ -2,66 +2,6 @@
 <html>
 <head>
 <style type="text/css">
-.knitr .inline {
-  background-color: #f7f7f7;
-  border:solid 1px #B0B0B0;
-}
-.error {
-	font-weight: bold;
-	color: #FF0000;
-}
-.warning {
-	font-weight: bold;
-}
-.message {
-	font-style: italic;
-}
-.source, .output, .warning, .error, .message {
-	padding: 0 1em;
-  border:solid 1px #F7F7F7;
-}
-.source {
-  background-color: #f5f5f5;
-}
-.rimage .left {
-  text-align: left;
-}
-.rimage .right {
-  text-align: right;
-}
-.rimage .center {
-  text-align: center;
-}
-.hl.num {
-  color: #AF0F91;
-}
-.hl.str {
-  color: #317ECC;
-}
-.hl.com {
-  color: #AD95AF;
-  font-style: italic;
-}
-.hl.opt {
-  color: #000000;
-}
-.hl.std {
-  color: #585858;
-}
-.hl.kwa {
-  color: #295F94;
-  font-weight: bold;
-}
-.hl.kwb {
-  color: #B05A65;
-}
-.hl.kwc {
-  color: #55aa55;
-}
-.hl.kwd {
-  color: #BC5A65;
-  font-weight: bold;
-}
 </style>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -89,26 +29,65 @@
 </head>
 
 
-<body>
+<body class="aenquete">
 		<!-- Navbar -->
 		<a id="ddmenuLink" href="menuBar.html"> Menu </a>
-		
+		<!-- Button -->
+		<button onclick="topFunction()" id="myBtn" title="Terug naar boven">Top</button>
+	
 		
 		<!-- Content -->
-		<br>	
-			<p> Gebruik de links hieronder om nadere informatie te krijgen over de marktgrootte van de veschillende branches.</p>
-				<div>
-				<div class="column-4"><a href="#Company_name">Company name</a></div>
-				<div class="column-4"><a href="UMC.html">Universitair Medische Centra</a></div>
-				<div class="column-4"><a href="Algemene_Ziekenhuizen.html">Algemene Ziekenhuizen</a></div>
-				<div class="column-4"><a href="Med_Labs.html">Medische Laboratoria e.d.</a></div>
+		<br>
+			<div class="row">
+				<div class="column-4">
+				<a href="#Company_name">Company name</a><br>
+				<a href="#Response_per_country">Responses per country</a><br>
+				<a href="#Type_of_institution">Type of institution</a><br>
+				<a href="#Area_of_research">Area of research</a><br>
 				</div>
-		<br><br><br>
-		<div class="verslag">
+				<div class="column-4">
+				<a href="#Role_or_position">What is your role or position?</a><br>
+				<a href="#Decision_maker">Are you the decision maker?</a><br>
+				<a href="#Actively_work_with">Do you actively work with <i>C. elegans</i>?</a><br>
+				<a href="#How_often_do_you_work_with">How often do you work with <i>C. elegans</i>?</a><br>
+				</div>
+				<div class="column-4">
+				<a href="#Currently_counted">How are the <i>C. elegans</i> currently being counted?</a><br>
+				<a href="#Type_of_well_plates">What type of well plates do you use?</a><br>
+				<a href="#Would_you_like_an_automated_DART_device">Would you like an automated development and reproduction analysis device?</a><br>
+				<a href="#Budget_for_device">What is your budget for such a device?</a><br>
+				</div>
+				<div class="column-4">
+				<a href="#Comfortable_paying">What would you feel comfortable paying for such a device?</a><br>	
+				<a href="#Maximum_surface_area">What is the maximum allowed surface area?</a><br>
+				<a href="#Use_case">Use case</a><br>
+				<a href="#Features">What features would you like to see?</a><br>
+				</div>
+			</div>
+<br><br><br>
+	<div class="verslag">
 <br>
-	<h2 class="title is-3"> Company name </h2> <br><br>
+	<h3 class="title is-3" style="text-align:center;"> Resultaten Enqu&#234;te </h3>
+<br><br>
 	</div>
-		
+		<div class="extra_body">
+		<div id="Company_name" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/ZWFkN/embed/" frameborder="0"></iframe></div>
+		<div id="Response_per_country" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/QwZDU/embed/" frameborder="0"></iframe></div>
+		<div id="Type_of_institution" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/TAxZG/embed/" frameborder="0"></iframe></div>
+		<div id="Area_of_research" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/3N2Q2/embed/" frameborder="0"></iframe></div>
+		<div id="Role_or_position" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/liMjQ/embed/" frameborder="0"></iframe></div>
+		<div id="Decision_maker" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/lNmNj/embed/" frameborder="0"></iframe></div>
+		<div id="Actively_work_with" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/liNGV/embed/" frameborder="0"></iframe></div>
+		<div id="How_often_do_you_work_with" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/lMWVh/embed/" frameborder="0"></iframe></div>
+		<div id="Currently_counted" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/E4MTE/embed/" frameborder="0"></iframe></div>
+		<div id="Type_of_well_plates" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/Nzk1M/embed/" frameborder="0"></iframe></div>
+		<div id="Would_you_like_an_automated_DART_device" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/U2NGV/embed/" frameborder="0"></iframe></div>
+		<div id="Budget_for_device" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/2JjNT/embed/" frameborder="0"></iframe></div>
+		<div id="Comfortable_paying" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/mMxMm/embed/" frameborder="0"></iframe></div>
+		<div id="Maximum_surface_area" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/A4NjM/embed/" frameborder="0"></iframe></div>
+		<div id="Use_case" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/jUzMz/embed/" frameborder="0"></iframe></div>
+		<div id="Features" class="enquete_charts"> <iframe width="100%" height="600" src="https://live.amcharts.com/TIyZG/embed/" frameborder="0"></iframe></div>
+		</div>
 		
 				
 
