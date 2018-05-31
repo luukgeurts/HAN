@@ -222,11 +222,13 @@ ol{
     float: left;
     width: 25%;
     padding: 10px;
+    min-height:500px;
     text-align: center;
 }
 .column-middle{
     float: left;
     width: 50%;
+    min-height:500px;
     padding: 10px;
     text-align: center;
 }
@@ -244,7 +246,6 @@ ol{
   padding-left: 21%;
   padding-right :21%;
   
-}
 
 
 
